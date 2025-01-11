@@ -32,12 +32,14 @@ usbipd bind --busid <bus id> --force
 
 ## Debugger Setup
 Use the following connections between the debugger and the development board.
+```
 +===============================+
 | Debugger  | Development board |
 | 3V3       | VCC               |
 | GND       | GND               |
 | SWDIO     | PD1               |
 +===============================+
+```
 
 ## Build and Flash
 Building is flashing is done with the same make command.
