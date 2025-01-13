@@ -25,10 +25,6 @@ usbipd list
 ```
 usbipd attach --wsl --busid <busid>
 ```
-3. Bind the device to wsl
-```
-usbipd bind --busid <bus id> --force
-```
 
 ## Debugger Setup
 Use the following connections between the debugger and the development board.
